@@ -1,3 +1,42 @@
+# Laravel Inertia CRUD App
+
+This is a simple Laravel 10 + Vue 3 (Inertia.js) CRUD application with file attachment support, SweetAlert confirmation modals, and soft delete functionality.
+
+## 📦 Tech Stack
+
+- Laravel 10
+- Vue 3 (via Inertia.js)
+- Vite
+- Tailwind CSS
+- SweetAlert2
+- MySQL
+
+---
+
+## 🚀 Features
+
+- ✅ CRUD operations (Create, Read, Update, Delete)
+- 📎 File Attachment Upload (with download)
+- 🗑️ Soft Delete (with restore option)
+- 💬 SweetAlert confirmation dialogs
+- 🔍 Trashed & Active records view
+
+---
+
+## 📁 File Uploads
+Uploaded files are stored in storage/app/public.
+Make sure to link the storage:
+php artisan storage:link
+
+## 💡 Restore Soft Deleted Records
+You can view and restore soft-deleted documents using the trashed scope in your controller and a restore button on the frontend.
+
+## 📸 Screenshots
+(Add screenshots here of the list view, create/edit form, SweetAlert in action, etc.)
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, open an issue first.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
